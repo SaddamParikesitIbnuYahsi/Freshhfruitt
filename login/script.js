@@ -11,7 +11,7 @@ document.getElementById('LoginForm').addEventListener('submit', function(event){
         alert("login berhasil");
         window.location.href = 'index.html';
     }else{
-        alert("username atau password sesuai");
+        alert("username atau password tidak sesuai");
     }
 
 });
